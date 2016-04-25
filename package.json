@@ -1,0 +1,35 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "simple wiki with firebase and react",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:js": "browserify ./src/app.js -t [ babelify --optional es7.classProperties] --outfile ./public/bundle.js",
+    "build": "watch 'npm run build:js' ./src"
+  },
+  "keywords": [
+    "wiki",
+    "react",
+    "firebase"
+  ],
+  "author": "Alexander Claeson",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.2.0",
+    "browserify": "^13.0.0",
+    "watch": "^0.17.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "exorcist": "^0.4.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "firebase": "^2.4.2",
+    "markdown": "^0.5.0",
+    "react": "^0.13.3",
+    "react-router": "^0.13.5"
+  }
+}
