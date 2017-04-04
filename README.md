@@ -1,11 +1,16 @@
 # react-wiki-firebase-playground
 Simple wiki built with react and firebase as backend
 
-```bash 
-* clone repo
-* cd in folder
-* 'npm install'
-* 'npm run start' to fire up dev server and start messing around!
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# server
+npm run start
 ```
 
 Enjoy!
+
+
